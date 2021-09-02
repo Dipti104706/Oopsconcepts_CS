@@ -14,8 +14,13 @@ namespace Polymorphism1
             //Console.WriteLine(Calci.add(12.4f, 21.3f));
             //Console.ReadLine();
 
-            Dog d = new Dog();
-            d.eat();
+            //Dog d = new Dog();
+            //d.eat();
+
+            Account account = new Account();
+            account.SetBalance(-15.55);
+            account.BalanceDetails();
+            Console.ReadLine();
         }
     }
 }
